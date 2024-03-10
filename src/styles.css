@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt');
+
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Prompt', serif;
 }
 
 body {
-  font-family: sans-serif;
   margin: 20px;
   padding: 0;
 }
@@ -13,41 +17,12 @@ h1 {
   font-size: 22px;
 }
 
-h2 {
-  margin-top: 0;
-  font-size: 20px;
-}
-
-h3 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-h4 {
-  margin-top: 0;
-  font-size: 16px;
-}
-
-h5 {
-  margin-top: 0;
-  font-size: 14px;
-}
-
-h6 {
-  margin-top: 0;
-  font-size: 12px;
-}
-
 code {
   font-size: 1.2em;
 }
 
 ul {
   padding-inline-start: 20px;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
@@ -80,6 +55,7 @@ body {
 .status {
   margin-bottom: 10px;
 }
+
 .game {
   display: flex;
   flex-direction: row;
@@ -87,4 +63,23 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.game-moves-list {
+  height: 200px;
+  margin-top: 60px;
+
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.game-move {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.game-move button {
+  padding: 0 10px;
 }
