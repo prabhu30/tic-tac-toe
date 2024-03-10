@@ -1,2 +1,2 @@
 # tic-tac-toe
-Created with CodeSandbox
+- Please check out the deployed version of the application here - [Link](https://tic-tac-toe-prabhu.netlify.app/)
